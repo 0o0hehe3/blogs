@@ -18,9 +18,13 @@ Chào mừng bạn đã đến với dự án website bằng Lavarel đầu tiê
 - Quê quán: Dương Xá - Gia Lâm - Hà Nội
 - Hiện đang là sinh viên năm 5 khoa CNTT - Học viện nông nghiệp Việt Nam
 
-## Sở thích: Ăn, ngủ, thể thao, code, ...
+## Sở thích: 
 
-## Sở ghét: Ghét sự giả dối, ...
+Ăn, ngủ, thể thao, code, ...
+
+## Sở ghét: 
+
+Ghét sự giả dối, ...
 
 ## (Còn tiếp ...)
 
