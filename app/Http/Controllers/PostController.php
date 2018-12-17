@@ -7,6 +7,8 @@
 	{
 		public function post()
 		{
+			//Lay toan bo csdl trong bang posts
+			// $posts = Post::get();
 			$posts = Post::paginate(6);
 			return view('posts.post',compact('posts'));
 		}

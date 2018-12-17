@@ -20,7 +20,7 @@
           <hr>
           @endforeach
 
-          {{ $posts -> links() }}
+          {{ $posts -> links() }} <!-- Phan trang -->
           <!-- Pager -->
           <div class="clearfix">
             <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
