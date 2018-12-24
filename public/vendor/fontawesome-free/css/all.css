@@ -3807,3 +3807,36 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
+
+.post_img{
+  float: left;
+  width: 20%;
+}
+
+.post_img img{
+  width: 100%;
+  padding: 5px;
+}
+
+.newest_post{
+  border: 0.5px solid black;
+  padding: 15px;
+}
+
+.img_newest_post{
+  float: left;
+  width: 100%;
+}
+
+.img_newest_post img{
+  width: 100%;
+  padding: 5px;
+}
+
+.img_show img{
+  width: 100%;
+}
+
+.errors-message{
+  color: red;
+}
