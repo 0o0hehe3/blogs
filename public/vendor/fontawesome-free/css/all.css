@@ -3837,6 +3837,24 @@ readers do not read off random characters that represent icons */
   width: 100%;
 }
 
+#edit_image{
+  widows: 200px;
+  height: 200px;
+}
+
 .errors-message{
   color: red;
+}
+
+.information-author{
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.img-author img{
+  width: 100%;
+}
+
+.icon-show{
+  padding: 15px 0;
 }

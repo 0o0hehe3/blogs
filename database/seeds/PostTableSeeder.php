@@ -20,6 +20,6 @@ class PostTableSeeder extends Seeder
 	        	'content' => $faker->paragraph,
 	        	'user_id' => '1',
 	        ]);
-    	}       
+    	}    
     }
 }

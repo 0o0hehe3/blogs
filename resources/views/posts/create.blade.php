@@ -15,14 +15,14 @@
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Content</label>
-              <textarea name="content" id="" cols="30" rows="10" class="form-control" placeholder="Nhập nội dung">{{ old('content') }}</textarea>
+              <textarea name="content" id="" cols="30" rows="10" class="form-control ckeditor" placeholder="Nhập nội dung">{{ old('content') }}</textarea>
             @if($errors->has('content'))
               <span class="help-block errors-message">{{ $errors->first('content') }}</span>
             @endif
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Image</label>
-              <input type="file" name="image_post" class="form-control">
+              <input type="file" name="image_url" class="form-control">
             @if($errors->has('image_url'))
               <span class="help-block errors-message">{{ $errors->first('image_url') }}</span>
             @endif
@@ -32,4 +32,8 @@
         </div>
       </div>
     </div>
+    <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
+    <script>
+      CKEDITOR.replace('ckeditor');
+    </script>
 @stop
